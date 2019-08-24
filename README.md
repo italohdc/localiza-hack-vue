@@ -1,29 +1,34 @@
-# localiza-hack-vue
+# Growth Hackathon Localiza Hertz
 
-## Project setup
+Este repositório contém o web app desenvolvido pela **Equipe 7** para o Hackathon da Localiza Hertz.
+
+
+## Web App Interativo ([Live Demo](https://inspiring-sammet-af7491.netlify.com))
+
+Para complementar a apresentação, foi desenvolvido um web app em **Vue.js** para mostrar um comparativo entre o custo de se utilizar Aplicativos de Mobilidade comparado ao aluguel de um carro na Localiza.
+
+Você pode visitar o repositório do web app [aqui](https://github.com/italohdc/localiza-hack-vue) ou acessar uma live demo do projeto [aqui](https://inspiring-sammet-af7491.netlify.com).
+
+
+## Para executar o projeto localmente
+
 ```
+# Instalar dependências
 npm install
 ```
 
-### Compiles and hot-reloads for development
 ```
+# Rodar aplicação localmente com hot-reload
 npm run serve
-```
 
-### Compiles and minifies for production
-```
+# Gerar build para ambiente de produção
 npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
+# Rodar linter
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Notebooks do Jupyter
+
+Além do web app, foram utilizados notebooks do **Jupyter** para fazer a análise dos dados disponibilizados pela equipe da Localiza. Os notebooks do **Jupyter** podem ser encontrados [aqui](https://github.com/FredSRocha/localiza-hack).

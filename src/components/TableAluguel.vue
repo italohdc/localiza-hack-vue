@@ -26,7 +26,7 @@
     <span id="disclaimer">
       * Os valores apresentados foram calculados utilizando como base o
       aluguel de carros econômicos em 24/08/2019. O valor real atual
-      pode variar
+      pode variar.
     </span>
   </b-card>
 </template>
