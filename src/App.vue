@@ -7,6 +7,7 @@
 
       <CalculatedTrips v-if="isDataComputed" class="card-container"/>
       <TableAluguel v-if="isDataComputed" class="card-container"/>
+      <ContactUs v-if="isDataComputed" class="card-container"/>
 
     </div>
   </div>
@@ -16,6 +17,7 @@
 import MainCard from './components/MainCard.vue';
 import CalculatedTrips from './components/CalculatedTrips.vue';
 import TableAluguel from './components/TableAluguel.vue';
+import ContactUs from './components/ContactUs.vue';
 
 import { mapState } from 'vuex';
 
@@ -25,6 +27,7 @@ export default {
     MainCard,
     CalculatedTrips,
     TableAluguel,
+    ContactUs,
   },
   computed: {
     ...mapState({

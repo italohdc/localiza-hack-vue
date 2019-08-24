@@ -13,6 +13,7 @@
           :type="type"
           class="text-right"
           @input="$emit('change', content)"
+          @keyup.enter.native="$emit('click')"
         />
       </b-input-group>
 

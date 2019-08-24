@@ -25,7 +25,6 @@ export default new Vuex.Store({
       if (dailyMileage === null) return;
 
       const mileage = Number(dailyMileage);
-      console.log(dailyMileage, mileage);
 
       const daily = mileage * 1.89;
       const monthly = daily * 30;

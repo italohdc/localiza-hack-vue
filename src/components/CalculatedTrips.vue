@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-card
-      title="Você vai gastar de Aplicativo de Mobilidade*..."
+      title="Você vai gastar com Aplicativos de Mobilidade*..."
     >
       <div id="uber-values">
         <p><b>{{ daily | currency }}</b> em um dia</p>
